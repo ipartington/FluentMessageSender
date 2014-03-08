@@ -22,12 +22,8 @@
                 _messageSender = messageSender
             End Sub
 
-            'Public Function From(ByVal sender As String) As ToExpression
-            '    _sender = sender
-            '    Return Me
-            'End Function
             Public Function From(ByVal sender As FromAddress) As ToExpression
-                _sender = sender.ToString
+                _sender = sender
                 Return Me
             End Function
 
@@ -36,12 +32,5 @@
             End Sub
         End Class
     End Class
-    Public Enum FromAddress
-        Iain
-        Sally
-        Andrew
-        Kathryn
-    End Enum
-
 End Namespace
 
