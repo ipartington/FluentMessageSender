@@ -1,7 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FluentMessageSender", "FluentMessageSender\FluentMessageSender.vbproj", "{E492D213-1C3E-473E-ABF6-8CB99299EB4E}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FluentMessageSenderVB", "FluentMessageSender\FluentMessageSenderVB.vbproj", "{E492D213-1C3E-473E-ABF6-8CB99299EB4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentMessageSenderCSharp", "FluentMessageSenderCSharp\FluentMessageSenderCSharp.csproj", "{52AF8E41-6E40-4DC4-94F3-7C9E3FFA28EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +17,10 @@ Global
 		{E492D213-1C3E-473E-ABF6-8CB99299EB4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E492D213-1C3E-473E-ABF6-8CB99299EB4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E492D213-1C3E-473E-ABF6-8CB99299EB4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52AF8E41-6E40-4DC4-94F3-7C9E3FFA28EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52AF8E41-6E40-4DC4-94F3-7C9E3FFA28EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52AF8E41-6E40-4DC4-94F3-7C9E3FFA28EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52AF8E41-6E40-4DC4-94F3-7C9E3FFA28EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
